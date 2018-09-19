@@ -1,4 +1,21 @@
 <resources>
-    <string name="app_name">Trabalho-1bimestre</string>
+    <string name="app_name"       >Trabalho-1bimestre</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Login -->
+    <string name="label_login"    >Login</string>
+    <string name="input_login"    >Login</string>
+
+    <!-- Menu -->
+    <string name="input_senha"    >Senha</string>
+    <string name="bt_entrar"      >Entrar</string>
+    <string name="bt_cliente"     >Clientes</string>
+
+    <!-- Tela de cadastro de cliente -->
+    <string name="txt_cliente"    >Cadastrar Cliente</string>
+    <string name="nome_cln"       >Nome</string>
+    <string name="email_cln"      >E-mail</string>
+    <string name="tel_cln"        >Telefone</string>
+    <string name="veiculo_cln"    >Veículo</string>
+    <string name="bt_cadcliente"  >Cadastrar Cliente</string>
 </resources>

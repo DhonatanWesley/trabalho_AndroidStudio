@@ -21,15 +21,9 @@ public class LoginActivity extends AppCompatActivity {
 
 
         this.btEntrar = this.findViewById(R.id.btEntrar);
-        this.etLogin    = this.findViewById(R.id.etLogin);
-        this.etSenha = this.findViewById(R.id.etSenha);
+        this.etLogin  = this.findViewById(R.id.etLogin);
+        this.etSenha  = this.findViewById(R.id.etSenha);
 
-        String login =LoginUtil.get(this);
-        if(login != null){
-            Toast.makeText(getApplicationContext(),
-                    "Ultimo usuario " + login, Toast.LENGTH_SHORT).show();
-
-        }
 
         this.btEntrar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,11 +31,9 @@ public class LoginActivity extends AppCompatActivity {
                 String login = etLogin.getText().toString();
                 String senha = etSenha.getText().toString();
 
-                if (login.equals("admin") && senha.equals("1")){
+                if (login.equals("adm") && senha.equals("adm")){
 
-                    LoginUtil.save(getApplicationContext(),login,senha);
-
-                    Intent intent = new Intent(LoginActivity.this,MainActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(intent);
                 }else{
                     Toast.makeText(getApplicationContext(),
