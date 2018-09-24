@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name"       >Trabalho-1bimestre</string>
+    <string name="app_name"       >The Lavation Gerenciator</string>
     <string name="action_settings">Settings</string>
 
     <!-- Login -->
@@ -17,5 +17,11 @@
     <string name="email_cln"      >E-mail</string>
     <string name="tel_cln"        >Telefone</string>
     <string name="veiculo_cln"    >Veículo</string>
-    <string name="bt_cadcliente"  >Cadastrar Cliente</string>
+    <string name="bt_cadcliente"  >Salvar</string>
+
+    <!-- Tela Listar Cliente -->
+    <string name="bt_cadastrarcln">Cadastrar Novo Cliente</string>
+
+    <!-- Tela Listar Servicos -->
+    <string name="bt_cadServico"  >Cadastrar Novo Serviço</string>
 </resources>
