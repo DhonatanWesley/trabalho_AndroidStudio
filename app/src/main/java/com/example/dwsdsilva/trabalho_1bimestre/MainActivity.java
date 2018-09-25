@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button bt_Clientes;
     private Button bt_Servicos;
+    private Button bt_Atendimentos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +40,15 @@ public class MainActivity extends AppCompatActivity {
         });
 
 //      Chama Lista de Atendimentos (not implemented)
+
+        this.bt_Atendimentos = this.findViewById(R.id.btnChamaAtendimento);
+        this.bt_Atendimentos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ListaAtendimento.class);
+                startActivity(intent);
+            }
+        });
 
 //      Chama Lista de Funcionários (Not Implemented)
 
