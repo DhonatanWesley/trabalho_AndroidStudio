@@ -32,7 +32,7 @@ public class ListaCliente extends AppCompatActivity{
         this.btn_ChamaCadCln.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ListaCliente.this, CadClnActivity.class);
+                Intent intent = new Intent(ListaCliente.this, CadCliente.class);
                 startActivity(intent);
             }
         });

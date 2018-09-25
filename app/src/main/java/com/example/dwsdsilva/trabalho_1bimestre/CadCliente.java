@@ -1,26 +1,24 @@
 package com.example.dwsdsilva.trabalho_1bimestre;
 
 import android.content.Context;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class CadClnActivity extends AppCompatActivity{
+public class CadCliente extends AppCompatActivity{
 
     private Button btCadCliente;
 
-    ClienteDAO clienteDAO = new ClienteDAO(CadClnActivity.this);
+    ClienteDAO clienteDAO = new ClienteDAO(CadCliente.this);
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cadcln);
+        setContentView(R.layout.cad_cliente);
 
         final Context context = getApplicationContext();
 

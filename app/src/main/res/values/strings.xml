@@ -19,6 +19,14 @@
     <string name="veiculo_cln"    >Veículo</string>
     <string name="bt_cadcliente"  >Salvar</string>
 
+    <!-- Tela de Cadastro de Servicos -->
+    <string name="txt_Servico"    >Cadastrar Servico</string>
+    <string name="servico_nome"   >Nome</string>
+    <string name="servico_respon" >Responsável</string>
+    <string name="servico_duracao">Duração</string>
+    <string name="servico_valor"  >Valor</string>
+    <string name="bt_cadservico"  >Salvar</string>
+
     <!-- Tela Listar Cliente -->
     <string name="bt_cadastrarcln">Cadastrar Novo Cliente</string>
 

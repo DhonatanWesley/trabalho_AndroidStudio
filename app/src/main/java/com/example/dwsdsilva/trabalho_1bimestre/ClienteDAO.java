@@ -13,7 +13,7 @@ public class ClienteDAO extends SQLiteOpenHelper {
 
 
     public ClienteDAO(Context context) {
-        super(context, "LavaCar", null, 1);
+        super(context, "Cliente", null, 1);
     }
 
     @Override

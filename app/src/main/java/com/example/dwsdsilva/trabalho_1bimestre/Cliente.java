@@ -1,7 +1,5 @@
 package com.example.dwsdsilva.trabalho_1bimestre;
 
-import android.support.design.widget.TextInputEditText;
-
 public class Cliente {
 
     private String nome;

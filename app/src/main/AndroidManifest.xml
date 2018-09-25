@@ -17,10 +17,11 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity"   />
-        <activity android:name=".CadClnActivity" />
-        <activity android:name=".ListaCliente"   />
-        <activity android:name=".ListaServico"   />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".CadCliente"   />
+        <activity android:name=".ListaCliente" />
+        <activity android:name=".ListaServico" />
+        <activity android:name=".CadServico"   />
 
     </application>
 
