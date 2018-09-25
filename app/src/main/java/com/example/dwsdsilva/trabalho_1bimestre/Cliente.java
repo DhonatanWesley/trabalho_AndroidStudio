@@ -1,5 +1,7 @@
 package com.example.dwsdsilva.trabalho_1bimestre;
 
+import android.support.design.widget.TextInputEditText;
+
 public class Cliente {
 
     private String nome;
@@ -37,5 +39,10 @@ public class Cliente {
 
     public void setVeiculo(String veiculo) {
         this.veiculo = veiculo;
+    }
+
+    @Override
+    public String toString() {
+        return getNome();
     }
 }

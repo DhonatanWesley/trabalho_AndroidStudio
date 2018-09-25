@@ -35,15 +35,13 @@ public class LoginActivity extends AppCompatActivity {
 
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(intent);
+
                 }else{
                     Toast.makeText(getApplicationContext(),
                             "Bloqueado", Toast.LENGTH_SHORT).show();
                     //R.string.bloqueado,
-                }
 
-                // finish();
-                // Toast.makeText(getApplicationContext(),
-                //            "Entrar", Toast.LENGTH_SHORT).show();
+                }
 
             }
         });
